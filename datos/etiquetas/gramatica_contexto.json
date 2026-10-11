@@ -1,0 +1,52 @@
+{
+  "reglas_contexto": {
+    "pregunta": [
+      "que",
+      "donde",
+      "cuando",
+      "como",
+      "porque",
+      "quien"
+    ],
+    "negacion": [
+      "no",
+      "nunca",
+      "tampoco",
+      "nadie"
+    ],
+    "afirmacion": [
+      "si",
+      "claro",
+      "por supuesto",
+      "exacto"
+    ],
+    "saludo": [
+      "hola",
+      "buenos dias",
+      "buenas tardes",
+      "buenas noches"
+    ],
+    "despedida": [
+      "adios",
+      "hasta luego",
+      "nos vemos",
+      "chao"
+    ]
+  },
+  "estructuras_frases": {
+    "pregunta": [
+      "{interrogativo} {verbo} {sujeto} {complemento}"
+    ],
+    "afirmacion": [
+      "{sujeto} {verbo} {complemento}"
+    ],
+    "negacion": [
+      "{sujeto} no {verbo} {complemento}"
+    ]
+  },
+  "correcciones_contexto": {
+    "yo querer ayuda": "quiero ayuda",
+    "tu poder repetir": "puedes repetir",
+    "ella decir hola": "ella dice hola"
+  }
+}

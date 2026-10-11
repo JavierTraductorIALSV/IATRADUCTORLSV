@@ -1,0 +1,81 @@
+c00 R 1234-d+°crzsep/a+ sel=1234
+c01 R 1234-d+°crzsep/a+ sel=1234
+c02 R 4+°/a+ sel=4
+c03 R 4+°/a+ sel=4
+c04 R 1234-d+°crzsep/a+ sel=1234 | L 123+/a+c+ sel=123
+c05 R 4+°/a+ sel=4 | L 12"°/a+c+ sel=12
+c06 R 4+°/a+ sel=4 | L 12+°/a+ sel=12
+c07 R 4+°/a+ sel=4 | L 12+°/a+ sel=12
+c08 R 1234-d+°crzsep/a+c+ sel=1234 | L 12"°/a+c+ sel=12
+c09 R 1234-d+°crzsep/a+c+ sel=1234 | L 12+°/a+ sel=12
+c10 R 4+°/a+ sel=4 | L 12+°/a+c+ sel=12
+c11 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c12 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c13 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c14 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c15 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c16 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c17 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c18 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c19 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c20 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c21 R 4+/a+ sel=4 | L 12+°/a+ sel=12
+c22 R 4+/a+ sel=4 | L 12+°/a+ sel=12
+c23 R 4+/a" sel=4 | L 12+°/a+ sel=12
+c24 R 4+/a" sel=4 | L 12+°/a+ sel=12
+c25 R 4+/a" sel=4 | L 12+°/a+c+ sel=12
+c26 R 4+/a+ sel=4 | L 1+°/a+c+ sel=1
+c27 R 4+/a+ sel=4 | L 12+°/a+c+ sel=12
+c28 R 4+/a+ sel=4 | L 1+°/a+c+ sel=1
+c29 R 4+/a+ sel=4 | L 1+°/a+c+ sel=1
+c30 R 4+/a" sel=4 | L 1+°/a+c+ sel=1
+c31 R 4+°/a" sel=4 | L 12+°/a+c+ sel=12
+c32 R 1234-d+°crz/a+c+ sel=1234 | L 12+°/a+ sel=12
+c33 R 1234-d+°crz/a+c+ sel=1234 | L 12+°/a+ sel=12
+c34 R 1234-d+°crz/a+c+ sel=1234 | L 12+°/a+ sel=12
+c35 R 1234-d+°/a+c+ sel=1234 | L 12+°/a+c+ sel=12
+c36 R 1234-d+°/a+c+ sel=1234 | L 12+°/a+c+ sel=12
+c37 R 1234-d+°/a"c+ sel=1234 | L 12+°/a+c+ sel=12
+c38 L 12+°/a+c+ sel=12
+c39 L 12+°/a+c+ sel=12 | R 34-d+°/a" sel=34
+c40 L 12+°/a+c+ sel=12
+c41 L 12+°/a+c+ sel=12 | R 34"°/a+ sel=34
+c42 L 12+°/a+c+ sel=12 | R 34"°/a+ sel=34
+c43 L 12+°/a+c+ sel=12 | R 34"°/a+ sel=34
+c44 L 12+°/a+c+ sel=12
+c45 L 12+°/a+c+ sel=12
+c46 L 12+°/a+c+ sel=12
+c47 L 12+°/a+c+ sel=12
+c48 L 123+/a+ sel=123
+c49 L 12^°/a+c+ sel=12
+c50 L 123"°/a+c+ sel=123
+c51 sin mano
+c52 sin mano
+c53 sin mano
+c54 sin mano
+c55 sin mano
+c56 sin mano
+c57 sin mano
+c58 sin mano
+c59 sin mano
+c60 sin mano
+c61 sin mano
+c62 sin mano
+c63 sin mano
+c64 sin mano
+c65 sin mano
+c66 sin mano
+c67 sin mano
+c68 sin mano
+c69 sin mano
+c70 sin mano
+c71 sin mano
+c72 sin mano
+c73 sin mano
+c74 sin mano
+c75 sin mano
+c76 sin mano
+c77 sin mano
+c78 sin mano
+c79 sin mano
+c80 sin mano

@@ -1,0 +1,3446 @@
+{
+  "MAMÁ": {
+    "video": "videos/MAMÁ_20250919_195203.avi",
+    "datos": "datos/secuencias/MAMÁ_20250919_195203.pkl",
+    "fecha": "20250919_195203",
+    "funcion_deteccion": "detectar_mamá"
+  },
+  "AMOR": {
+    "video": "videos/AMOR_20250919_195634.avi",
+    "datos": "datos/secuencias/AMOR_20250919_195634.pkl",
+    "fecha": "20250919_195634",
+    "funcion_deteccion": "detectar_amor"
+  },
+  "SIEMPRE": {
+    "video": "videos/SIEMPRE_20250919_195715.avi",
+    "datos": "datos/secuencias/SIEMPRE_20250919_195715.pkl",
+    "fecha": "20250919_195715",
+    "funcion_deteccion": "detectar_siempre"
+  },
+  "MI": {
+    "video": "videos/MI_20250919_201823.avi",
+    "datos": "datos/secuencias/MI_20250919_201823.pkl",
+    "fecha": "20250919_201823",
+    "contexto": {
+      "tipo": "DETERMINANTE POSESIVO",
+      "emocion": "POSESIÓN",
+      "intensidad": 2
+    },
+    "funcion_deteccion": "detectar_mi"
+  },
+  "CASA": {
+    "video": "videos/CASA_20250919_202004.avi",
+    "datos": "datos/secuencias/CASA_20250919_202004.pkl",
+    "fecha": "20250919_202004",
+    "contexto": {
+      "tipo": "SUSTANTIVO",
+      "emocion": "NEUTRAL",
+      "intensidad": 3
+    },
+    "funcion_deteccion": "detectar_casa"
+  },
+  "IR": {
+    "video": "videos/IR_20250919_202044.avi",
+    "datos": "datos/secuencias/IR_20250919_202044.pkl",
+    "fecha": "20250919_202044",
+    "contexto": {
+      "tipo": "VERBO",
+      "emocion": "ACCIÓN",
+      "intensidad": 3
+    },
+    "funcion_deteccion": "detectar_ir"
+  },
+  "AMIGO": {
+    "video": "videos/AMIGO_20250919_210556.avi",
+    "fecha": "20250919_210556",
+    "frames": 77,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "funcion_deteccion": "detectar_amigo"
+  },
+  "FIESTA": {
+    "video": "videos/FIESTA_20250919_210627.avi",
+    "fecha": "20250919_210627",
+    "frames": 84,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "funcion_deteccion": "detectar_fiesta"
+  },
+  "ABRIL.mp4": {
+    "video": "videos\\ABRIL.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_abrilmp4"
+  },
+  "ACTIVIDAD.mp4": {
+    "video": "videos\\ACTIVIDAD.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_actividadmp4"
+  },
+  "AGOSTO.mp4": {
+    "video": "videos\\AGOSTO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_agostomp4"
+  },
+  "ANALITICO.mp4": {
+    "video": "videos\\ANALITICO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_analiticomp4"
+  },
+  "APRENDIZAJE.mp4": {
+    "video": "videos\\APRENDIZAJE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_aprendizajemp4"
+  },
+  "BIEN.mp4": {
+    "video": "videos\\BIEN.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_bienmp4"
+  },
+  "BIOÉTICA.mp4": {
+    "video": "videos\\BIOÉTICA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_bioticamp4"
+  },
+  "CINE.mp4": {
+    "video": "videos\\CINE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cinemp4"
+  },
+  "CINEMATOGRAFÍA.mp4": {
+    "video": "videos\\CINEMATOGRAFÍA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cinematografamp4"
+  },
+  "COHERENCIA.mp4": {
+    "video": "videos\\COHERENCIA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_coherenciamp4"
+  },
+  "COHESION.mp4": {
+    "video": "videos\\COHESION.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cohesionmp4"
+  },
+  "COMPARAR.mp4": {
+    "video": "videos\\COMPARAR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_compararmp4"
+  },
+  "COMPLEJIDAD.mp4": {
+    "video": "videos\\COMPLEJIDAD.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_complejidadmp4"
+  },
+  "COMPRENDER.mp4": {
+    "video": "videos\\COMPRENDER.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_comprendermp4"
+  },
+  "COMPROMISO.mp4": {
+    "video": "videos\\COMPROMISO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_compromisomp4"
+  },
+  "CONCLUSIÓN.mp4": {
+    "video": "videos\\CONCLUSIÓN.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_conclusinmp4"
+  },
+  "CONFERENCIA.mp4": {
+    "video": "videos\\CONFERENCIA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_conferenciamp4"
+  },
+  "CONOCIMIENTO.mp4": {
+    "video": "videos\\CONOCIMIENTO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_conocimientomp4"
+  },
+  "CONTEXTO 3.mp4": {
+    "video": "videos\\CONTEXTO 3.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_contexto_3mp4"
+  },
+  "CREATIVIDAD.mp4": {
+    "video": "videos\\CREATIVIDAD.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_creatividadmp4"
+  },
+  "CÓMO.mp4": {
+    "video": "videos\\CÓMO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cmomp4"
+  },
+  "DECANATO.mp4": {
+    "video": "videos\\DECANATO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decanatomp4"
+  },
+  "DECANATO1.mp4": {
+    "video": "videos\\DECANATO1.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decanato1mp4"
+  },
+  "DECANO.mp4": {
+    "video": "videos\\DECANO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decanomp4"
+  },
+  "DECISIÓN.mp4": {
+    "video": "videos\\DECISIÓN.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decisinmp4"
+  },
+  "DESARROLLO 1.mp4": {
+    "video": "videos\\DESARROLLO 1.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_desarrollo_1mp4"
+  },
+  "DESARROLLO 2.mp4": {
+    "video": "videos\\DESARROLLO 2.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_desarrollo_2mp4"
+  },
+  "DESARROLLO.mp4": {
+    "video": "videos\\DESARROLLO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_desarrollomp4"
+  },
+  "DIBUJAR.mp4": {
+    "video": "videos\\DIBUJAR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_dibujarmp4"
+  },
+  "DICCIONARIO.mp4": {
+    "video": "videos\\DICCIONARIO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_diccionariomp4"
+  },
+  "DIFICIL.mp4": {
+    "video": "videos\\DIFICIL.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_dificilmp4"
+  },
+  "DISCURSO.mp4": {
+    "video": "videos\\DISCURSO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_discursomp4"
+  },
+  "DIVERGENTE.mp4": {
+    "video": "videos\\DIVERGENTE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_divergentemp4"
+  },
+  "DOCENTE.mp4": {
+    "video": "videos\\DOCENTE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_docentemp4"
+  },
+  "DOMINGO.mp4": {
+    "video": "videos\\DOMINGO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_domingomp4"
+  },
+  "ECOLOGIA.mp4": {
+    "video": "videos\\ECOLOGIA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ecologiamp4"
+  },
+  "ECOPRODUCCION.mp4": {
+    "video": "videos\\ECOPRODUCCION.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ecoproduccionmp4"
+  },
+  "ENSEÑAME.mp4": {
+    "video": "videos\\ENSEÑAME.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ensenamemp4"
+  },
+  "ENSEÑAR.mp4": {
+    "video": "videos\\ENSEÑAR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ensenarmp4"
+  },
+  "ESCRIBIR.mp4": {
+    "video": "videos\\ESCRIBIR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_escribirmp4"
+  },
+  "ESTUDIANTE.mp4": {
+    "video": "videos\\ESTUDIANTE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_estudiantemp4"
+  },
+  "ETNOBOTANICA.mp4": {
+    "video": "videos\\ETNOBOTANICA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_etnobotanicamp4"
+  },
+  "EUREKA.mp4": {
+    "video": "videos\\EUREKA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_eurekamp4"
+  },
+  "EXPORTAR.mp4": {
+    "video": "videos\\EXPORTAR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_exportarmp4"
+  },
+  "FACIL 2.mp4": {
+    "video": "videos\\FACIL 2.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_facil_2mp4"
+  },
+  "FACIL": {
+    "video": "videos\\FACIL_20250919_02.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_facil"
+  },
+  "FAMILIA": {
+    "video": "videos\\FAMILIA_20250919_03.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_familia"
+  },
+  "FEBRERO": {
+    "video": "videos\\FEBRERO_20250919_04.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_febrero"
+  },
+  "FINALIZAR.mp4": {
+    "video": "videos\\FINALIZAR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_finalizarmp4"
+  },
+  "FIN": {
+    "video": "videos\\FIN_20250919_05.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_fin"
+  },
+  "FONOLOGIA": {
+    "video": "videos\\FONOLOGIA_20250919_06.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_fonologia"
+  },
+  "HORARIO.mp4": {
+    "video": "videos\\HORARIO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_horariomp4"
+  },
+  "IDEA": {
+    "video": "videos\\IDEA_20250919_07.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_idea"
+  },
+  "IDENTIDAD": {
+    "video": "videos\\IDENTIDAD_20250919_08.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_identidad"
+  },
+  "INDIVIDUAL": {
+    "video": "videos\\INDIVIDUAL_20250919_09.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_individual"
+  },
+  "INTERCAMBIO": {
+    "video": "videos\\INTERCAMBIO_20250919_01.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_intercambio"
+  },
+  "INVESTIGACIÓN.mp4": {
+    "video": "videos\\INVESTIGACIÓN.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_investigacinmp4"
+  },
+  "JUEVES.mp4": {
+    "video": "videos\\JUEVES.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_juevesmp4"
+  },
+  "JUEVES1.mp4": {
+    "video": "videos\\JUEVES1.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_jueves1mp4"
+  },
+  "LAPTOP 2.mp4": {
+    "video": "videos\\LAPTOP 2.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_laptop_2mp4"
+  },
+  "LENGUAJE.mp4": {
+    "video": "videos\\LENGUAJE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lenguajemp4"
+  },
+  "LENGUA": {
+    "video": "videos\\LENGUA_20250919_10.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lengua"
+  },
+  "LINGUISTICA": {
+    "video": "videos\\LINGUISTICA_20250919_11.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_linguistica"
+  },
+  "LUNES1.mp4": {
+    "video": "videos\\LUNES1.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lunes1mp4"
+  },
+  "LUNES": {
+    "video": "videos\\LUNES_20250919_12.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lunes"
+  },
+  "MARTES.mp4": {
+    "video": "videos\\MARTES.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_martesmp4"
+  },
+  "MEMORIA.mp4": {
+    "video": "videos\\MEMORIA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_memoriamp4"
+  },
+  "MENTE.mp4": {
+    "video": "videos\\MENTE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_mentemp4"
+  },
+  "MES": {
+    "video": "videos\\MES_20250919_12.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_mes"
+  },
+  "METODO.mp4": {
+    "video": "videos\\METODO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_metodomp4"
+  },
+  "MIERCOLES.mp4": {
+    "video": "videos\\MIERCOLES.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_miercolesmp4"
+  },
+  "NEGRO.mp4": {
+    "video": "videos\\NEGRO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_negromp4"
+  },
+  "PARTICIPANTE 2.mp4": {
+    "video": "videos\\PARTICIPANTE 2.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_participante_2mp4"
+  },
+  "PARTICIPAR 1.mp4": {
+    "video": "videos\\PARTICIPAR 1.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_participar_1mp4"
+  },
+  "PARTICIPAR 2.mp4": {
+    "video": "videos\\PARTICIPAR 2.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_participar_2mp4"
+  },
+  "PENDRIVE USB.mp4": {
+    "video": "videos\\PENDRIVE USB.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_pendrive_usbmp4"
+  },
+  "PENSAMIENTO": {
+    "video": "videos\\PENSAMIENTO_20250919_16.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_pensamiento"
+  },
+  "PERFECTO": {
+    "video": "videos\\PERFECTO_20250919_17.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_perfecto"
+  },
+  "PINTAR": {
+    "video": "videos\\PINTAR_20250919_15.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_pintar"
+  },
+  "POLIMATA.mp4": {
+    "video": "videos\\POLIMATA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_polimatamp4"
+  },
+  "POLITICA.mp4": {
+    "video": "videos\\POLITICA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_politicamp4"
+  },
+  "PONENCIA.mp4": {
+    "video": "videos\\PONENCIA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ponenciamp4"
+  },
+  "PRACTICA.mp4": {
+    "video": "videos\\PRACTICA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_practicamp4"
+  },
+  "PROFESOR": {
+    "video": "videos\\PROFESOR_20250919_13.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_profesor"
+  },
+  "PROPUESTA.mp4": {
+    "video": "videos\\PROPUESTA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_propuestamp4"
+  },
+  "PROYECTO": {
+    "video": "videos\\PROYECTO_20250919_14.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_proyecto"
+  },
+  "RECORRIDO.mp4": {
+    "video": "videos\\RECORRIDO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_recorridomp4"
+  },
+  "REUNION.mp4": {
+    "video": "videos\\REUNION.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_reunionmp4"
+  },
+  "SABADO.mp4": {
+    "video": "videos\\SABADO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_sabadomp4"
+  },
+  "SABER.mp4": {
+    "video": "videos\\SABER.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_sabermp4"
+  },
+  "SEMANTICA (SEÑAS).mp4": {
+    "video": "videos\\SEMANTICA (SEÑAS).mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_semantica_senasmp4"
+  },
+  "SEMANTICA 2.mp4": {
+    "video": "videos\\SEMANTICA 2.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_semantica_2mp4"
+  },
+  "SEPTIEMBRE.mp4": {
+    "video": "videos\\SEPTIEMBRE.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_septiembremp4"
+  },
+  "SEÑAS HABLAR.mp4": {
+    "video": "videos\\SEÑAS HABLAR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_senas_hablarmp4"
+  },
+  "SEÑAS.mp4": {
+    "video": "videos\\SEÑAS.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_senasmp4"
+  },
+  "TAREA ESCRITA.mp4": {
+    "video": "videos\\TAREA ESCRITA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_tarea_escritamp4"
+  },
+  "TAREA.mp4": {
+    "video": "videos\\TAREA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_tareamp4"
+  },
+  "TEORIA.mp4": {
+    "video": "videos\\TEORIA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_teoriamp4"
+  },
+  "TRABAJO ESCRITO.mp4": {
+    "video": "videos\\TRABAJO ESCRITO.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_trabajo_escritomp4"
+  },
+  "TRABAJO": {
+    "video": "videos\\TRABAJO_20250919_19.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_trabajo"
+  },
+  "UNIVERSIDAD": {
+    "video": "videos\\UNIVERSIDAD_20250919_20.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_universidad"
+  },
+  "VICERRECTOR.mp4": {
+    "video": "videos\\VICERRECTOR.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_vicerrectormp4"
+  },
+  "VIDA.mp4": {
+    "video": "videos\\VIDA.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_vidamp4"
+  },
+  "VIERNES.mp4": {
+    "video": "videos\\VIERNES.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_viernesmp4"
+  },
+  "VIRTUAL.mp4": {
+    "video": "videos\\VIRTUAL.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_virtualmp4"
+  },
+  "WIFI.mp4": {
+    "video": "videos\\WIFI.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_wifimp4"
+  },
+  "ZOOM.mp4": {
+    "video": "videos\\ZOOM.mp4",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_zoommp4"
+  },
+  "HABLAR": {
+    "video": "videos\\HABLAR_20250919_204706.avi",
+    "fecha": "20250919_213655",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_hablar"
+  },
+  "ABRIL": {
+    "video": "videos\\ABRIL.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_abril"
+  },
+  "ACTIVIDAD": {
+    "video": "videos\\ACTIVIDAD.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_actividad"
+  },
+  "AGOSTO": {
+    "video": "videos\\AGOSTO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_agosto"
+  },
+  "ANALITICO": {
+    "video": "videos\\ANALITICO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_analitico"
+  },
+  "APRENDIZAJE": {
+    "video": "videos\\APRENDIZAJE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_aprendizaje"
+  },
+  "BIEN": {
+    "video": "videos\\BIEN.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_bien"
+  },
+  "BIOÉTICA": {
+    "video": "videos\\BIOÉTICA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_biotica"
+  },
+  "CINE": {
+    "video": "videos\\CINE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cine"
+  },
+  "CINEMATOGRAFÍA": {
+    "video": "videos\\CINEMATOGRAFÍA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cinematografa"
+  },
+  "COHERENCIA": {
+    "video": "videos\\COHERENCIA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_coherencia"
+  },
+  "COHESION": {
+    "video": "videos\\COHESION.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cohesion"
+  },
+  "COMPARAR": {
+    "video": "videos\\COMPARAR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_comparar"
+  },
+  "COMPLEJIDAD": {
+    "video": "videos\\COMPLEJIDAD.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_complejidad"
+  },
+  "COMPRENDER": {
+    "video": "videos\\COMPRENDER.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_comprender"
+  },
+  "COMPROMISO": {
+    "video": "videos\\COMPROMISO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_compromiso"
+  },
+  "CONCLUSIÓN": {
+    "video": "videos\\CONCLUSIÓN.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_conclusin"
+  },
+  "CONFERENCIA": {
+    "video": "videos\\CONFERENCIA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_conferencia"
+  },
+  "CONOCIMIENTO": {
+    "video": "videos\\CONOCIMIENTO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_conocimiento"
+  },
+  "CONTEXTO 3": {
+    "video": "videos\\CONTEXTO 3.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_contexto_3"
+  },
+  "CREATIVIDAD": {
+    "video": "videos\\CREATIVIDAD.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_creatividad"
+  },
+  "CÓMO": {
+    "video": "videos\\CÓMO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_cmo"
+  },
+  "DECANATO": {
+    "video": "videos\\DECANATO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decanato"
+  },
+  "DECANATO1": {
+    "video": "videos\\DECANATO1.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decanato1"
+  },
+  "DECANO": {
+    "video": "videos\\DECANO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decano"
+  },
+  "DECISIÓN": {
+    "video": "videos\\DECISIÓN.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_decisin"
+  },
+  "DESARROLLO 1": {
+    "video": "videos\\DESARROLLO 1.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_desarrollo_1"
+  },
+  "DESARROLLO 2": {
+    "video": "videos\\DESARROLLO 2.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_desarrollo_2"
+  },
+  "DESARROLLO": {
+    "video": "videos\\DESARROLLO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_desarrollo"
+  },
+  "DIBUJAR": {
+    "video": "videos\\DIBUJAR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_dibujar"
+  },
+  "DICCIONARIO": {
+    "video": "videos\\DICCIONARIO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_diccionario"
+  },
+  "DIFICIL": {
+    "video": "videos\\DIFICIL.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_dificil"
+  },
+  "DISCURSO": {
+    "video": "videos\\DISCURSO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_discurso"
+  },
+  "DIVERGENTE": {
+    "video": "videos\\DIVERGENTE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_divergente"
+  },
+  "DOCENTE": {
+    "video": "videos\\DOCENTE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_docente"
+  },
+  "DOMINGO": {
+    "video": "videos\\DOMINGO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_domingo"
+  },
+  "ECOLOGIA": {
+    "video": "videos\\ECOLOGIA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ecologia"
+  },
+  "ECOPRODUCCION": {
+    "video": "videos\\ECOPRODUCCION.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ecoproduccion"
+  },
+  "ENSEÑAME": {
+    "video": "videos\\ENSEÑAME.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ensename"
+  },
+  "ENSEÑAR": {
+    "video": "videos\\ENSEÑAR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ensenar"
+  },
+  "ESCRIBIR": {
+    "video": "videos\\ESCRIBIR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_escribir"
+  },
+  "ESTUDIANTE": {
+    "video": "videos\\ESTUDIANTE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_estudiante"
+  },
+  "ETNOBOTANICA": {
+    "video": "videos\\ETNOBOTANICA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_etnobotanica"
+  },
+  "EUREKA": {
+    "video": "videos\\EUREKA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_eureka"
+  },
+  "EXPORTAR": {
+    "video": "videos\\EXPORTAR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_exportar"
+  },
+  "FACIL 2": {
+    "video": "videos\\FACIL 2.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_facil_2"
+  },
+  "FACIL_20250919_02": {
+    "video": "videos\\FACIL_20250919_02.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_facil_20250919_02"
+  },
+  "FAMILIA_20250919_03": {
+    "video": "videos\\FAMILIA_20250919_03.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_familia_20250919_03"
+  },
+  "FEBRERO_20250919_04": {
+    "video": "videos\\FEBRERO_20250919_04.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_febrero_20250919_04"
+  },
+  "FINALIZAR": {
+    "video": "videos\\FINALIZAR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_finalizar"
+  },
+  "FIN_20250919_05": {
+    "video": "videos\\FIN_20250919_05.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_fin_20250919_05"
+  },
+  "FONOLOGIA_20250919_06": {
+    "video": "videos\\FONOLOGIA_20250919_06.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_fonologia_20250919_06"
+  },
+  "HORARIO": {
+    "video": "videos\\HORARIO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_horario"
+  },
+  "IDEA_20250919_07": {
+    "video": "videos\\IDEA_20250919_07.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_idea_20250919_07"
+  },
+  "IDENTIDAD_20250919_08": {
+    "video": "videos\\IDENTIDAD_20250919_08.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_identidad_20250919_08"
+  },
+  "INDIVIDUAL_20250919_09": {
+    "video": "videos\\INDIVIDUAL_20250919_09.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_individual_20250919_09"
+  },
+  "INTERCAMBIO_20250919_01": {
+    "video": "videos\\INTERCAMBIO_20250919_01.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_intercambio_20250919_01"
+  },
+  "INVESTIGACIÓN": {
+    "video": "videos\\INVESTIGACIÓN.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_investigacin"
+  },
+  "JUEVES": {
+    "video": "videos\\JUEVES.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_jueves"
+  },
+  "JUEVES1": {
+    "video": "videos\\JUEVES1.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_jueves1"
+  },
+  "LAPTOP 2": {
+    "video": "videos\\LAPTOP 2.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_laptop_2"
+  },
+  "LENGUAJE": {
+    "video": "videos\\LENGUAJE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lenguaje"
+  },
+  "LENGUA_20250919_10": {
+    "video": "videos\\LENGUA_20250919_10.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lengua_20250919_10"
+  },
+  "LINGUISTICA_20250919_11": {
+    "video": "videos\\LINGUISTICA_20250919_11.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_linguistica_20250919_11"
+  },
+  "LUNES1": {
+    "video": "videos\\LUNES1.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lunes1"
+  },
+  "LUNES_20250919_12": {
+    "video": "videos\\LUNES_20250919_12.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_lunes_20250919_12"
+  },
+  "MARTES": {
+    "video": "videos\\MARTES.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_martes"
+  },
+  "MEMORIA": {
+    "video": "videos\\MEMORIA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_memoria"
+  },
+  "MENTE": {
+    "video": "videos\\MENTE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_mente"
+  },
+  "MES_20250919_12": {
+    "video": "videos\\MES_20250919_12.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_mes_20250919_12"
+  },
+  "METODO": {
+    "video": "videos\\METODO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_metodo"
+  },
+  "MIERCOLES": {
+    "video": "videos\\MIERCOLES.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_miercoles"
+  },
+  "NEGRO": {
+    "video": "videos\\NEGRO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_negro"
+  },
+  "PARTICIPANTE 2": {
+    "video": "videos\\PARTICIPANTE 2.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_participante_2"
+  },
+  "PARTICIPAR 1": {
+    "video": "videos\\PARTICIPAR 1.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_participar_1"
+  },
+  "PARTICIPAR 2": {
+    "video": "videos\\PARTICIPAR 2.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_participar_2"
+  },
+  "PENDRIVE USB": {
+    "video": "videos\\PENDRIVE USB.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_pendrive_usb"
+  },
+  "PENSAMIENTO_20250919_16": {
+    "video": "videos\\PENSAMIENTO_20250919_16.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_pensamiento_20250919_16"
+  },
+  "PERFECTO_20250919_17": {
+    "video": "videos\\PERFECTO_20250919_17.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_perfecto_20250919_17"
+  },
+  "PINTAR_20250919_15": {
+    "video": "videos\\PINTAR_20250919_15.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_pintar_20250919_15"
+  },
+  "POLIMATA": {
+    "video": "videos\\POLIMATA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_polimata"
+  },
+  "POLITICA": {
+    "video": "videos\\POLITICA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_politica"
+  },
+  "PONENCIA": {
+    "video": "videos\\PONENCIA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_ponencia"
+  },
+  "PRACTICA": {
+    "video": "videos\\PRACTICA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_practica"
+  },
+  "PROFESOR_20250919_13": {
+    "video": "videos\\PROFESOR_20250919_13.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_profesor_20250919_13"
+  },
+  "PROPUESTA": {
+    "video": "videos\\PROPUESTA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_propuesta"
+  },
+  "PROYECTO_20250919_14": {
+    "video": "videos\\PROYECTO_20250919_14.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_proyecto_20250919_14"
+  },
+  "RECORRIDO": {
+    "video": "videos\\RECORRIDO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_recorrido"
+  },
+  "REUNION": {
+    "video": "videos\\REUNION.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_reunion"
+  },
+  "SABADO": {
+    "video": "videos\\SABADO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_sabado"
+  },
+  "SABER": {
+    "video": "videos\\SABER.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_saber"
+  },
+  "SEMANTICA (SEÑAS)": {
+    "video": "videos\\SEMANTICA (SEÑAS).mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_semantica_senas"
+  },
+  "SEMANTICA 2": {
+    "video": "videos\\SEMANTICA 2.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_semantica_2"
+  },
+  "SEPTIEMBRE": {
+    "video": "videos\\SEPTIEMBRE.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_septiembre"
+  },
+  "SEÑAS HABLAR": {
+    "video": "videos\\SEÑAS HABLAR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_senas_hablar"
+  },
+  "SEÑAS": {
+    "video": "videos\\SEÑAS.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_senas"
+  },
+  "TAREA ESCRITA": {
+    "video": "videos\\TAREA ESCRITA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_tarea_escrita"
+  },
+  "TAREA": {
+    "video": "videos\\TAREA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_tarea"
+  },
+  "TEORIA": {
+    "video": "videos\\TEORIA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_teoria"
+  },
+  "TRABAJO ESCRITO": {
+    "video": "videos\\TRABAJO ESCRITO.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_trabajo_escrito"
+  },
+  "TRABAJO_20250919_19": {
+    "video": "videos\\TRABAJO_20250919_19.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_trabajo_20250919_19"
+  },
+  "UNIVERSIDAD_20250919_20": {
+    "video": "videos\\UNIVERSIDAD_20250919_20.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_universidad_20250919_20"
+  },
+  "VICERRECTOR": {
+    "video": "videos\\VICERRECTOR.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_vicerrector"
+  },
+  "VIDA": {
+    "video": "videos\\VIDA.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_vida"
+  },
+  "VIERNES": {
+    "video": "videos\\VIERNES.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_viernes"
+  },
+  "VIRTUAL": {
+    "video": "videos\\VIRTUAL.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_virtual"
+  },
+  "WIFI": {
+    "video": "videos\\WIFI.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_wifi"
+  },
+  "ZOOM": {
+    "video": "videos\\ZOOM.mp4",
+    "fecha": "20250919_215504",
+    "frames": 0,
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral",
+      "intensidad": 1
+    },
+    "cargado_desde_video": true,
+    "funcion_deteccion": "detectar_zoom"
+  },
+  "ABRIL.MP4": {
+    "video": "videos\\ABRIL.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ACTIVIDAD.MP4": {
+    "video": "videos\\ACTIVIDAD.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "AGOSTO.MP4": {
+    "video": "videos\\AGOSTO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ANALITICO.MP4": {
+    "video": "videos\\ANALITICO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "APRENDIZAJE.MP4": {
+    "video": "videos\\APRENDIZAJE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "BIEN.MP4": {
+    "video": "videos\\BIEN.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "BIOÉTICA.MP4": {
+    "video": "videos\\BIOÉTICA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CINE.MP4": {
+    "video": "videos\\CINE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CINEMATOGRAFÍA.MP4": {
+    "video": "videos\\CINEMATOGRAFÍA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "COHERENCIA.MP4": {
+    "video": "videos\\COHERENCIA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "COHESION.MP4": {
+    "video": "videos\\COHESION.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "COMPARAR.MP4": {
+    "video": "videos\\COMPARAR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "COMPLEJIDAD.MP4": {
+    "video": "videos\\COMPLEJIDAD.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "COMPRENDER.MP4": {
+    "video": "videos\\COMPRENDER.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "COMPROMISO.MP4": {
+    "video": "videos\\COMPROMISO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CONCLUSIÓN.MP4": {
+    "video": "videos\\CONCLUSIÓN.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CONFERENCIA.MP4": {
+    "video": "videos\\CONFERENCIA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CONOCIMIENTO.MP4": {
+    "video": "videos\\CONOCIMIENTO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CONTEXTO 3.MP4": {
+    "video": "videos\\CONTEXTO 3.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CREATIVIDAD.MP4": {
+    "video": "videos\\CREATIVIDAD.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "CÓMO.MP4": {
+    "video": "videos\\CÓMO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DECANATO.MP4": {
+    "video": "videos\\DECANATO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DECANATO1.MP4": {
+    "video": "videos\\DECANATO1.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DECANO.MP4": {
+    "video": "videos\\DECANO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DECISIÓN.MP4": {
+    "video": "videos\\DECISIÓN.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DESARROLLO 1.MP4": {
+    "video": "videos\\DESARROLLO 1.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DESARROLLO 2.MP4": {
+    "video": "videos\\DESARROLLO 2.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DESARROLLO.MP4": {
+    "video": "videos\\DESARROLLO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DIBUJAR.MP4": {
+    "video": "videos\\DIBUJAR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DICCIONARIO.MP4": {
+    "video": "videos\\DICCIONARIO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DIFICIL.MP4": {
+    "video": "videos\\DIFICIL.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DISCURSO.MP4": {
+    "video": "videos\\DISCURSO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DIVERGENTE.MP4": {
+    "video": "videos\\DIVERGENTE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DOCENTE.MP4": {
+    "video": "videos\\DOCENTE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "DOMINGO.MP4": {
+    "video": "videos\\DOMINGO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ECOLOGIA.MP4": {
+    "video": "videos\\ECOLOGIA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ECOPRODUCCION.MP4": {
+    "video": "videos\\ECOPRODUCCION.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ENSEÑAME.MP4": {
+    "video": "videos\\ENSEÑAME.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ENSEÑAR.MP4": {
+    "video": "videos\\ENSEÑAR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ESCRIBIR.MP4": {
+    "video": "videos\\ESCRIBIR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ESTUDIANTE.MP4": {
+    "video": "videos\\ESTUDIANTE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ETNOBOTANICA.MP4": {
+    "video": "videos\\ETNOBOTANICA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "negacion",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "EUREKA.MP4": {
+    "video": "videos\\EUREKA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "EXPORTAR.MP4": {
+    "video": "videos\\EXPORTAR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "FACIL 2.MP4": {
+    "video": "videos\\FACIL 2.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "FINALIZAR.MP4": {
+    "video": "videos\\FINALIZAR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "HORARIO.MP4": {
+    "video": "videos\\HORARIO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "INVESTIGACIÓN.MP4": {
+    "video": "videos\\INVESTIGACIÓN.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "JUEVES.MP4": {
+    "video": "videos\\JUEVES.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "JUEVES1.MP4": {
+    "video": "videos\\JUEVES1.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "LAPTOP 2.MP4": {
+    "video": "videos\\LAPTOP 2.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "LENGUAJE.MP4": {
+    "video": "videos\\LENGUAJE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "LUNES1.MP4": {
+    "video": "videos\\LUNES1.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "MARTES.MP4": {
+    "video": "videos\\MARTES.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "MEMORIA.MP4": {
+    "video": "videos\\MEMORIA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "MENTE.MP4": {
+    "video": "videos\\MENTE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "METODO.MP4": {
+    "video": "videos\\METODO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "MIERCOLES.MP4": {
+    "video": "videos\\MIERCOLES.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "NEGRO.MP4": {
+    "video": "videos\\NEGRO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PARTICIPANTE 2.MP4": {
+    "video": "videos\\PARTICIPANTE 2.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PARTICIPAR 1.MP4": {
+    "video": "videos\\PARTICIPAR 1.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PARTICIPAR 2.MP4": {
+    "video": "videos\\PARTICIPAR 2.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PENDRIVE USB.MP4": {
+    "video": "videos\\PENDRIVE USB.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "POLIMATA.MP4": {
+    "video": "videos\\POLIMATA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "POLITICA.MP4": {
+    "video": "videos\\POLITICA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PONENCIA.MP4": {
+    "video": "videos\\PONENCIA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PRACTICA.MP4": {
+    "video": "videos\\PRACTICA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PROPUESTA.MP4": {
+    "video": "videos\\PROPUESTA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "RECORRIDO.MP4": {
+    "video": "videos\\RECORRIDO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "REUNION.MP4": {
+    "video": "videos\\REUNION.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SABADO.MP4": {
+    "video": "videos\\SABADO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SABER.MP4": {
+    "video": "videos\\SABER.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SEMANTICA (SEÑAS).MP4": {
+    "video": "videos\\SEMANTICA (SEÑAS).mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SEMANTICA 2.MP4": {
+    "video": "videos\\SEMANTICA 2.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SEPTIEMBRE.MP4": {
+    "video": "videos\\SEPTIEMBRE.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SEÑAS HABLAR.MP4": {
+    "video": "videos\\SEÑAS HABLAR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "SEÑAS.MP4": {
+    "video": "videos\\SEÑAS.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "TAREA ESCRITA.MP4": {
+    "video": "videos\\TAREA ESCRITA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "TAREA.MP4": {
+    "video": "videos\\TAREA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "TEORIA.MP4": {
+    "video": "videos\\TEORIA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "TRABAJO ESCRITO.MP4": {
+    "video": "videos\\TRABAJO ESCRITO.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "VICERRECTOR.MP4": {
+    "video": "videos\\VICERRECTOR.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "VIDA.MP4": {
+    "video": "videos\\VIDA.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "VIERNES.MP4": {
+    "video": "videos\\VIERNES.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "VIRTUAL.MP4": {
+    "video": "videos\\VIRTUAL.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "verbo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "WIFI.MP4": {
+    "video": "videos\\WIFI.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "ZOOM.MP4": {
+    "video": "videos\\ZOOM.mp4",
+    "fecha": "20250919_224628",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    },
+    "cargado_desde_video": true
+  },
+  "PAPÁ": {
+    "video": "videos/PAPÁ_20250919_225100.avi",
+    "fecha": "20250919_225119",
+    "contexto": {
+      "tipo": "sustantivo",
+      "emocion": "neutral"
+    }
+  }
+}
