@@ -715,12 +715,27 @@ def recortar_fronteras(segmentos, registros, mano_idx):
     return segmentos[ini:fin], segmentos[:ini] + segmentos[fin:]
 
 
+def limpiar_trayectoria(puntos):
+    """Quita picos de deteccion (mediana) y temblor de MediaPipe (media).
+
+    La geometria del contorno se mide sobre esta trayectoria limpia: el temblor
+    cuadro a cuadro inventa giros e inversiones que la mano no hizo.  La media
+    de 5 cuadros (0.18 s a 28 fps) no borra una oscilacion voluntaria de la
+    mano, que es mas lenta que eso.
+    """
+    pts = np.array(puntos)
+    if len(pts) < 5:                  # un contorno tan corto no aguanta alisado
+        return list(pts)
+    suave = [np.median(pts[max(0, i - 1):i + 2], axis=0) for i in range(len(pts))]
+    return [np.mean(suave[max(0, i - 2):i + 3], axis=0) for i in range(len(pts))]
+
+
 def clasificar_movimiento(s, tray, etiquetas, registros):
     """Tipo de contorno (Parte 3), mas oscilacion y roce."""
     ini, fin = s["ini"], s["fin"]
     cm_ini = etiquetas[ini]
     cm_fin = etiquetas[min(fin, len(etiquetas) - 1)]
-    puntos = [p for p in tray[ini:fin + 1] if p is not None]
+    puntos = limpiar_trayectoria([p for p in tray[ini:fin + 1] if p is not None])
 
     if len(puntos) < 2:
         if cm_ini != cm_fin:
@@ -747,7 +762,11 @@ def clasificar_movimiento(s, tray, etiquetas, registros):
     reg_fin = registros[min(fin, len(registros) - 1)]["manos"]
     if reg_ini and reg_fin:
         giro_palma = angulo_entre(reg_ini[0]["n_palma"], reg_fin[0]["n_palma"])
-    if rectitud < 0.25 and (cm_ini != cm_fin or giro_palma > 40.0):
+    # sin desplazamiento neto tampoco hay contorno, aunque la rectitud no lo
+    # delate; solo vale mirarlo en contornos largos, porque en uno de dos o tres
+    # cuadros el cambio de CM real no alcanza a desplazarse
+    sin_desplazamiento = rectitud < 0.25 or (len(puntos) >= 5 and cuerda < 0.15)
+    if sin_desplazamiento and (cm_ini != cm_fin or giro_palma > 40.0):
         partes = []
         if cm_ini != cm_fin:
             partes.append("cambio de CM (%s -> %s)" % (cm_ini, cm_fin))
