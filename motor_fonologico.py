@@ -65,6 +65,8 @@ UMBRAL_APIL = 22.0          # diferencia total de extension entre dedos => apila
 UMBRAL_PO = 0.45            # |cos| del pulgar contra la normal de la palma => opuesto
 UMBRAL_CONTACTO = 0.42      # distancia pulgar-dedo, en largos de palma
 UMBRAL_MOV = 0.02           # velocidad de la muneca (ancho de hombros / cuadro)
+MIN_SOSTENIDO = 3           # cuadros que debe durar una CM para contar como tal
+                            # (0.11 s a 28 fps: menos que eso es parpadeo)
 
 # Las seis combinaciones de [apx][amx][adx] que ocurren en la LSV (TABLA 13 y 14)
 EXT_POR_COMBO = {(1, 1, 1): "+", (0, 0, 0): "-", (1, 0, 0): "^",
@@ -342,6 +344,44 @@ def matriz_mano(lm, mano, sin_espejo=False):
     }
 
 
+# rasgos que definen la CM y se deciden contra un umbral: cada uno puede
+# parpadear cuadro a cuadro cuando el gesto queda justo en el limite
+RASGOS_VOTABLES = ("sel", "ext", "red", "apil", "crz", "sep", "nsab", "ns_sep",
+                   "ns_red", "ns_abierto", "puno", "pulgar_pos", "pulgar_ext",
+                   "contacto")
+
+
+def suavizar_rasgos(registros, mano_idx, radio=2):
+    """Voto mayoritario de cada rasgo de la CM en una ventana de 5 cuadros.
+
+    Un rasgo cuyo bit parpadea parte una misma CM sostenida en varias etiquetas
+    (4+/a+, 4+°/a+, 4+/a"), lo que inventa cambios de CM y fragmenta el ranking
+    de CM sostenidas.  Se vota rasgo por rasgo y no por etiqueta entera para que
+    las variantes cercanas se reunan; en empate gana el cuadro central, que es
+    el que se esta describiendo.  0.18 s a 28 fps: un cambio real de CM dura
+    mas que eso y sobrevive al voto.
+    """
+    brutos = [reg["manos"][mano_idx] if len(reg["manos"]) > mano_idx else None
+              for reg in registros]
+    suaves = []
+    for i, f in enumerate(brutos):
+        if f is None:
+            suaves.append(None)
+            continue
+        voto = dict(f)
+        for r in RASGOS_VOTABLES:
+            vals = [g[r] for g in brutos[max(0, i - radio):i + radio + 1]
+                    if g is not None and r in g]
+            if not vals:
+                continue
+            cuenta = Counter(vals).most_common()
+            empate = [v for v, n in cuenta if n == cuenta[0][1]]
+            if f[r] not in empate:
+                voto[r] = empate[0]
+        suaves.append(voto)
+    return suaves
+
+
 def plano_horizontal(f):
     """Cara de la mano que apunta mas hacia el suelo (5 posibilidades en la LSV)."""
     caras = {"palma": f["n_palma"], "dorso": -f["n_palma"],
@@ -598,16 +638,16 @@ def pos_normalizada(reg, mano_idx):
     return f["wrist"] / max(f["palma"], 1e-6)
 
 
-def segmentar(registros, umbral_mov, mano_idx):
+def segmentar(registros, umbral_mov, mano_idx, rasgos):
     """Segmentos D (detencion), M (movimiento) y T (transicion) de la Parte 3."""
     tray, etiquetas = [], []
-    for reg in registros:
-        if len(reg["manos"]) <= mano_idx:
+    for i, reg in enumerate(registros):
+        if rasgos[i] is None:
             tray.append(None)
             etiquetas.append(None)
             continue
         tray.append(pos_normalizada(reg, mano_idx))
-        etiquetas.append(pintar_etiqueta(reg["manos"][mano_idx]))
+        etiquetas.append(pintar_etiqueta(rasgos[i]))
 
     velocidad = []
     for i, p in enumerate(tray):
@@ -643,14 +683,24 @@ def segmentar(registros, umbral_mov, mano_idx):
         if s["tipo"] == "D" and (s["fin"] - s["ini"]) <= 1:
             s["tipo"] = "T"
 
-    # dentro de una detencion, un cambio de CM es un movimiento sin contorno
+    # dentro de una detencion, un cambio de CM es un movimiento sin contorno,
+    # pero solo si cada configuracion se sostiene: un diacritico que parpadea
+    # en el limite del umbral no parte la detencion en segmentos
     segmentos = []
     for s in brutos:
         if s["tipo"] != "D":
             segmentos.append(s)
             continue
-        cortes = [i for i in range(s["ini"], s["fin"])
-                  if etiquetas[i] and etiquetas[i] != etiquetas[i + 1]]
+        cortes = []
+        for i in range(s["ini"], s["fin"]):
+            if not etiquetas[i] or etiquetas[i] == etiquetas[i + 1]:
+                continue
+            antes = next((k for k in range(i, s["ini"] - 1, -1)
+                          if etiquetas[k] != etiquetas[i]), s["ini"] - 1)
+            despues = next((k for k in range(i + 1, s["fin"] + 1)
+                            if etiquetas[k] != etiquetas[i + 1]), s["fin"] + 1)
+            if i - antes >= MIN_SOSTENIDO and despues - i - 1 >= MIN_SOSTENIDO:
+                cortes.append(i)
         if not cortes:
             segmentos.append(s)
             continue
@@ -730,11 +780,25 @@ def limpiar_trayectoria(puntos):
     return [np.mean(suave[max(0, i - 2):i + 3], axis=0) for i in range(len(pts))]
 
 
+def cm_extremo(etiquetas, ini, fin, al_inicio):
+    """CM sostenida en un extremo del segmento, no la de un solo cuadro.
+
+    Un cambio de CM es un contraste entre dos configuraciones que se sostienen;
+    leido en el cuadro de la frontera, el diacritico que parpadea lo inventa.
+    """
+    if al_inicio:
+        rango = range(ini, min(ini + MIN_SOSTENIDO, fin + 1))
+    else:
+        rango = range(max(fin - MIN_SOSTENIDO + 1, ini), fin + 1)
+    vals = [etiquetas[i] for i in rango if i < len(etiquetas) and etiquetas[i]]
+    return Counter(vals).most_common(1)[0][0] if vals else None
+
+
 def clasificar_movimiento(s, tray, etiquetas, registros):
     """Tipo de contorno (Parte 3), mas oscilacion y roce."""
     ini, fin = s["ini"], s["fin"]
-    cm_ini = etiquetas[ini]
-    cm_fin = etiquetas[min(fin, len(etiquetas) - 1)]
+    cm_ini = cm_extremo(etiquetas, ini, fin, True)
+    cm_fin = cm_extremo(etiquetas, ini, fin, False)
     puntos = limpiar_trayectoria([p for p in tray[ini:fin + 1] if p is not None])
 
     if len(puntos) < 2:
@@ -820,13 +884,14 @@ def esquema_bimanual(registros):
 # =====================================================================
 # impresion
 # =====================================================================
-def describir_segmento(s, registros, etiquetas, tray, catalogo, pasivas, mano_idx):
+def describir_segmento(s, registros, rasgos, etiquetas, tray, catalogo, pasivas,
+                       mano_idx):
     centro = min((s["ini"] + s["fin"]) // 2, len(registros) - 1)
     reg = registros[centro]
-    if len(reg["manos"]) <= mano_idx:
+    f = rasgos[centro]
+    if f is None:
         return ["  (sin mano visible en este cuadro)"]
 
-    f = reg["manos"][mano_idx]
     superficie, locacion, proximidad = ubicacion(f, reg["ref"], reg["pose"])
     lineas = []
 
@@ -854,8 +919,8 @@ def describir_segmento(s, registros, etiquetas, tray, catalogo, pasivas, mano_id
 
 
 def describir_mano_pasiva(registros, catalogo, pasivas, mano_idx):
-    etiquetas = [pintar_etiqueta(r["manos"][mano_idx])
-                 for r in registros if len(r["manos"]) > mano_idx]
+    etiquetas = [pintar_etiqueta(f) for f in suavizar_rasgos(registros, mano_idx)
+                 if f is not None]
     if not etiquetas:
         return
     dominante, veces = Counter(etiquetas).most_common(1)[0]
@@ -891,7 +956,9 @@ def transcribir(ruta, paso=1, max_cuadros=0, umbral_mov=UMBRAL_MOV,
         "%s (%d cuadros)" % (k, v) for k, v in vistos.items()))
 
     esquema, activa, pasiva = esquema_bimanual(registros)
-    segmentos, etiquetas, tray, velocidad = segmentar(registros, umbral_mov, activa)
+    rasgos = suavizar_rasgos(registros, activa)
+    segmentos, etiquetas, tray, velocidad = segmentar(registros, umbral_mov,
+                                                      activa, rasgos)
     segmentos, fronteras = recortar_fronteras(segmentos, registros, activa)
 
     if traza:
@@ -930,7 +997,7 @@ def transcribir(ruta, paso=1, max_cuadros=0, umbral_mov=UMBRAL_MOV,
         print("\n%s   cuadros %d-%d   t=%.2f-%.2f s" %
               (nombre, registros[s["ini"]]["n"], registros[s["fin"]]["n"],
                registros[s["ini"]]["t"], registros[s["fin"]]["t"]))
-        for linea in describir_segmento(s, registros, etiquetas, tray,
+        for linea in describir_segmento(s, registros, rasgos, etiquetas, tray,
                                         catalogo, pasivas, activa):
             print(linea)
         if guardar_frames and registros[(s["ini"] + s["fin"]) // 2]["imagen"] is not None:
@@ -947,11 +1014,19 @@ def transcribir(ruta, paso=1, max_cuadros=0, umbral_mov=UMBRAL_MOV,
     if dominantes:
         print("\n" + "-" * 68)
         print("CM mas sostenidas en la sena:")
-        for etiqueta, veces in Counter(dominantes).most_common(5):
+        cuenta = Counter(dominantes).most_common()
+        inestables = [(e, v) for e, v in cuenta if v < MIN_SOSTENIDO]
+        for etiqueta, veces in [(e, v) for e, v in cuenta
+                                if v >= MIN_SOSTENIDO][:5]:
             top = cotejar(parsear_etiqueta(etiqueta), catalogo, top=3)
             print("  %-30s %4d cuadros   ->  %s" % (
                 etiqueta, veces,
                 ", ".join("#%d %s" % (c["n"], c["glosa"]) for _, c in top)))
+        if inestables:
+            print("  otras %d lecturas de menos de %d cuadros (%d cuadros en "
+                  "total): la mano esta en transicion y no llegan a sostenerse"
+                  % (len(inestables), MIN_SOSTENIDO,
+                     sum(v for _, v in inestables)))
     if guardar_frames:
         print("\nCuadros guardados en: %s" % os.path.abspath(guardar_frames))
 
