@@ -2,3 +2,4 @@ myenv/
 __pycache__/
 Lib/
 *.pyc
+cuadros_demo/
